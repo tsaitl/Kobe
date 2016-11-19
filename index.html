@@ -1,0 +1,135 @@
+<html>
+	<head>
+		<title>Kobe "Bean" Bryant</title>
+		
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		
+	</head>
+	<body>
+
+		<p id="myParagraph"></p>
+		<button type="button"
+		onclick="document.getElementByID('myParagraph').innerHTML='Hello World'">Click</button>
+	
+	
+		<p id="prettyParagraph"></p>
+		<button type="button" onclick="applyStyling()">Make it pretty!</button>
+		<script>
+			function applyStyling(){
+				var paragraph=document.getElemntbyID("prettyParagraph");
+				paragraph.style.color="green";
+				paragraph.style.fontsize="29px";
+				paragraph.style.fontWeight="700";
+			}
+		</script>
+		<header>
+			<div class="container">
+					<div class="jumbotron">
+						<h1>KOBE 我们好想你</h1>
+						<p class="lead">Greatest Laker of All Time
+						</p>
+						<p>
+							<a class="btn btn-lg btn-success" href="http://www.nike.com/us/en_us/c/basketball/kobe-bryant"
+								role="button">see more</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<script
+			src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+		</script>
+
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+		</script>
+
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					5 Time NBA Champion
+			</div>
+			<div class="item">
+					18 time NBA All-Star
+			</div>
+			<div class="item">
+					15 time All NBA team
+			</div>
+		</div>
+	</div>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#myCarousel").carousel({interval: 4000});
+			});
+		</script>
+
+			<style>
+				h1{
+					color:red;
+					font-size: 60px;
+					font-family: Helvetica, Arial, sans-serif;
+				}
+				p {
+					color: blue;
+					font-size: 40px;
+				}
+				img{
+					margin: 20px;
+				}
+			</style>
+			<h1><strong>Black Mamba</strong></h1>
+			<p1><strong><em>81</em></strong> points<br>
+		</div>
+
+	<input id="numericInput" type="number">
+	<p id="result"></p>
+	<button type="button" onclick="test Input()">test Input</button>
+	<script>
+		function testInput() {
+			// Create variable to store test result
+			var text;
+			// Get the value of the input field with id="numb"
+			var x = document.getElementById("numericInput").value;
+			if (isNaN(x) || x < 0 || x > 99) {
+				text = "Wrong input";
+			} else {
+				text = "Correct input";
+			}
+			// Display result
+			document.getElementById("result").innerHTML = text;
+		}
+	</script>
+
+	<div>
+		<a href="http://www.google.com">I link to Google</a>
+		<a href="http://www.google.com" target="_blank">I will open Google in a new tab.</a><br>
+	</div>
+
+	<div>
+		<img src="https://www.muscleprodigy.com/wp-content/uploads/2010/10/635977562108560005-679443365_kobe.jpg"><br>
+		</--Never forget-->
+	</div>
+	
+	<div>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Bryant_Fades_Over_Butler.jpg/170px-Bryant_Fades_Over_Butler.jpg"><br>
+	</div>
+
+	
+		<h2>Accolades</h2>
+		<p> First ballot <span style="color:red">Hall-of-Fame</span> career </p>=
+
+	
+		<ul style="list-style-type:square;">
+			<li>MVP</li>
+			<li>All NBA First Team</li>
+			<li>All NBA Defensive Team</li>
+			<li>5 NBA Championships</li>
+		</ul>
+	
+		<script>
+			alert("Hello, Good Looking")
+		</script>
+	</body>
+</html>
